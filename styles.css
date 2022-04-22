@@ -10,7 +10,7 @@ header { background-image: linear-gradient(to bottom right,rgb(95, 82, 2), rgb(4
 
 }
 footer{
-  position:fixed;
+  position:auto;
 }
 
 body
@@ -141,12 +141,19 @@ color:rgb(212, 0, 255);
 {
   transform: none;
 }
-.mainContainer {
+#mainContainer {
+  text-align: center;
   position: relative;
-    background-color: rgb(31, 29, 29); border-radius: 25px; padding: 15px; box-shadow: 3px 3px 3px 3px rgb(76, 2, 74) ;
+    background-color: rgb(31, 29, 29); border-radius: 25px; padding: auto; box-shadow: 3px 3px 3px 3px rgb(76, 2, 74) ;
     text-align: center;
-    z-index: 4;
+    z-index: auto;
 }
 #social{
   position:relative;
+  z-index:auto;
+}
+.copyright{
+  position: relative;
+  z-index:auto;
+  align-self: auto;
 }
