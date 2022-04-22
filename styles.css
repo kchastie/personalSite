@@ -111,14 +111,15 @@ color:rgb(212, 0, 255);
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
-/*hamburger menu controls*/
+/*hamburger menu*/
 #menu
 {
   position: absolute;
   width: 300px;
   margin: -75px 0 0 -50px;
   padding: 50px;
-  padding-top: 125px;
+  padding-top: 75px;
+  margin-top: auto;
   
   background: #ededed;
   list-style-type: none;
@@ -144,16 +145,18 @@ color:rgb(212, 0, 255);
 #mainContainer {
   text-align: center;
   position: relative;
-    background-color: rgb(31, 29, 29); border-radius: 25px; padding: auto; box-shadow: 3px 3px 3px 3px rgb(76, 2, 74) ;
-    text-align: center;
+    background-color: rgb(31, 29, 29); border-radius: 25px; box-shadow: 3px 3px 3px 3px rgb(76, 2, 74) ;
     z-index: auto;
+    align-self: auto;
+    align-content: center;
+    margin:auto;
 }
 #social{
   position:relative;
   z-index:auto;
 }
 .copyright{
-  position: relative;
+  position: absolute;
   z-index:auto;
-  align-self: auto;
+  align-self: center;
 }
